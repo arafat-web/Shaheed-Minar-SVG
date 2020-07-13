@@ -1,0 +1,19 @@
+body{
+    background-color: lightgrey;
+}
+svg {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count:1;
+    margin-left: 0px;
+    margin-right:10px;
+
+}
+@-webkit-keyframes colorchange {
+    0% {background-color: white;}
+    50% {background-color: grey;}
+    100% {background-color: black; }
+}
